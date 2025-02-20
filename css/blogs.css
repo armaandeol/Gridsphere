@@ -108,6 +108,10 @@ nav a:hover {
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.blog:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
 .blog img {
     width: 100%;
     height: 200px;
@@ -135,10 +139,22 @@ nav a:hover {
     transform: scale(1.05);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
+.read-more {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+.blog:hover .read-more {
+    text-decoration: underline;
+}
 
 /* Testimonials */
 .testimonials {
+<<<<<<< HEAD
     background-color: #101010(0, 0%, 6%); /* Deep black */
+=======
+    background-color: #101010; /* deep black */
+>>>>>>> eb09dfdc21e02cca3287b443f26f251c8444c103
     padding: 40px 20px;
     text-align: center;
     color: #F0EAD6; /* Dull Gold */
@@ -163,7 +179,11 @@ nav a:hover {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Subtle black shadow */
     border-radius: 8px;
     border: 1px solid #506C57; /* Dark Green */
+<<<<<<< HEAD
     color: #101010; /* deep black*/
+=======
+    color: #101010; /* Deep black */
+>>>>>>> eb09dfdc21e02cca3287b443f26f251c8444c103
     opacity: 0;
     transition: opacity 0.5s ease;
     min-height: 200px;
@@ -186,7 +206,11 @@ nav a:hover {
 
 /* Call-to-Action Section */
 .cta {
+<<<<<<< HEAD
     background-color: #101010; /* Deep black */
+=======
+    background-color: #101010; /* Dark Green */
+>>>>>>> eb09dfdc21e02cca3287b443f26f251c8444c103
     color: #F0EAD6; /* Dull Gold */
     padding: 50px 20px;
     text-align: center;
@@ -257,12 +281,23 @@ footer .social-icons a:hover {
 
 @media(max-width: 1430px){
     .para {
+    .para {
         padding-left: 20px;
         padding-right: 20px;
     }
 }
 
 @media(max-width: 1200px){
+    .blogs {
+        justify-content: center;
+        gap: 15px;
+    }
+    .blog {
+        width: 45%; /* Two columns */
+    }
+    .testimonial {
+        max-width: 250px;
+    }
     .blogs {
         justify-content: center;
         gap: 15px;
@@ -289,9 +324,29 @@ footer .social-icons a:hover {
     .testimonial {
         max-width: 80%;
     }
+    .blogs {
+        gap: 15px;
+    }
+    .blog {
+        width: 100%; /* Single column */
+    }
+    .testimonial-slider {
+        flex-direction: column;
+        align-items: center;
+    }
+    .testimonial {
+        max-width: 80%;
+    }
 }
 
 @media(max-width: 870px){
+    .cta h2 {
+        font-size: 28px;
+    }
+    .cta a {
+        font-size: 16px;
+        padding: 12px 20px;
+    }
     .cta h2 {
         font-size: 28px;
     }
@@ -314,9 +369,34 @@ footer .social-icons a:hover {
     .testimonial {
         padding: 15px;
     }
+    .blogs {
+        gap: 10px;
+    }
+    .blog .text h3 {
+        font-size: 20px;
+    }
+    .blog .text p {
+        font-size: 14px;
+    }
+    .testimonial {
+        padding: 15px;
+    }
 }
 
 @media(max-width: 670px){
+    .tabs div {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+    .cta h2 {
+        font-size: 24px;
+    }
+    .cta a {
+        padding: 10px 15px;
+    }
+    .testimonial {
+        max-width: 100%;
+    }
     .tabs div {
         padding: 5px 10px;
         font-size: 14px;
@@ -349,4 +429,5 @@ footer .social-icons a:hover {
     .testimonial p {
         font-size: 12px;
     }
+}
 }
