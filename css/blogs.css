@@ -150,7 +150,11 @@ nav a:hover {
 
 /* Testimonials */
 .testimonials {
+<<<<<<< HEAD
+    background-color: #101010(0, 0%, 6%); /* Deep black */
+=======
     background-color: #101010; /* deep black */
+>>>>>>> eb09dfdc21e02cca3287b443f26f251c8444c103
     padding: 40px 20px;
     text-align: center;
     color: #F0EAD6; /* Dull Gold */
@@ -175,7 +179,11 @@ nav a:hover {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Subtle black shadow */
     border-radius: 8px;
     border: 1px solid #506C57; /* Dark Green */
+<<<<<<< HEAD
+    color: #101010; /* deep black*/
+=======
     color: #101010; /* Deep black */
+>>>>>>> eb09dfdc21e02cca3287b443f26f251c8444c103
     opacity: 0;
     transition: opacity 0.5s ease;
     min-height: 200px;
@@ -198,7 +206,11 @@ nav a:hover {
 
 /* Call-to-Action Section */
 .cta {
+<<<<<<< HEAD
+    background-color: #101010; /* Deep black */
+=======
     background-color: #101010; /* Dark Green */
+>>>>>>> eb09dfdc21e02cca3287b443f26f251c8444c103
     color: #F0EAD6; /* Dull Gold */
     padding: 50px 20px;
     text-align: center;
